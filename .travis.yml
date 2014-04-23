@@ -6,7 +6,7 @@ before_script:
 script:
 #  - NVM_DIR=$TRAVIS_BUILD_DIR make URCHIN=/tmp/urchin test
 #  - $SHELL -c "printf '\n\033[0;34m%s\033[0m\n' \"Running tests in $0\"; NVM_DIR=$TRAVIS_BUILD_DIR /tmp/urchin -f test/$TEST_SUITE"
-  - NVM_DIR=$TRAVIS_BUILD_DIR make URCHIN=/tmp/urchin fast2
+
 env:
   - SHELL=sh TEST_SUITE=fast
   - SHELL=dash TEST_SUITE=fast
